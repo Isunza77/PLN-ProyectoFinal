@@ -10,7 +10,7 @@ TP= True Positive,
 TN= True Negative,
 FP= False Positive, 
 FN= False Negative.
-Se eligío el recall, ya que se esta prediciendo la depresión de una persona. Es mas importante minimizar los Falsos negativos, ya que puede ser peligroso no tratar un caso, y que este se empeore.
+Se eligío el recall, ya que se esta prediciendo la depresión de una persona. Es mas importante minimizar los Falsos negativos, ya que puede ser peligroso no tratar un caso positivo, y que este se empeore.
 
 Para poder ver el rendimiento de manera grafica, se utilizó la herramienta de matriz de confusión.
 
