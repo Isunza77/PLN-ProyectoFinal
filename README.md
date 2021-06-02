@@ -19,4 +19,8 @@ Para poder ver el rendimiento de manera grafica, se utilizó la herramienta de m
 El primer módelo que se utilzó fue el módelo SS3, introducido por primera vez en la section 3 del paper cientifico "A text classification framework for simple and effective early depression detection over social media streams" (arXiv preprint). SS3 es un modelo de clasificación de texto. que su caracteristica principal es que tiene la hablidad de explicar de manera natural la racionalidad de los textos.
 
 Se implementó usando la libreria de python PySS3.
- 
+#### Bert model
+El modelo de bert fue creado con el dataset 'Fulldata2.csv' este fue creado con 4 datasets diferentes para tener una gran riqueza de metodologías diferentes. 
+Para usar el modelo de bert es necesario usar esta carpeta: https://drive.google.com/drive/folders/1yW85oTu1QoWCcHDDWXHuZPz_1FzHkC-Y?usp=sharing.
+Una vez descargada 'sys.path.append(os.path.abspath('/content/drive/MyDrive/bert'))' y 'cd drive/MyDrive/bert' deben ser cambiados a la ubicación de la carpeta descargada. Una vez logrado esto e instalado las librerías necesarias la última celda del notebook Bert_test_depre detectara con que porcentaje cree que un texto es depresivo. Para testear el texto deseado solo es necesario cambiar la variable "text=''" a lo requerido.
+
