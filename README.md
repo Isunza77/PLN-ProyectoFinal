@@ -2,7 +2,7 @@
 
 ### Dataset 
 
-El dataset fue obtenido de 4 fuentes distintas ya que pudimos percatarnos que casi todas las oraciones contenian la palabra depresion, y por lo tanto el modelo iba a tener overfitting. Al final obtuvimos un dataset con 3000 registros y con una distribucion apropiada.
+El dataset fue obtenido de 4 fuentes distintas ya que pudimos percatarnos que casi todas las oraciones contenian la palabra depresion, y por lo tanto el modelo iba a tener overfitting, este proceso puede visualizarse en https://docs.google.com/document/d/1ESw64C7C9L6zr-nKeDmi0CD6De8gAFJOyMwi_1TWkoQ/edit. Al final obtuvimos un dataset con 3000 registros y con una distribucion apropiada. 
 
 
 
