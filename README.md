@@ -1,12 +1,20 @@
 # PLN-ProyectoFinal
 
+La salud mental es un tema que en la actualidad esta siendo considerado como uno de los problemas sociales que afectan a cada vez mas personas. 
+Las redes sociales han permitido que podamos expresar nuestros pensamientos y emociones con una mayor libertad y Twitter es la plataforma mas utilizada para esto.Esto permite que podamos obtener bases de datos con tweets para generar modelos que permitan detectar si un usuario pudiera tener depresion. Esto permitiria que se les pudiera identificar y asi poder ofrecerles el apoyo adecuado.
+En este proyecto se proponen varios modelos que permitan detectar depresion a traves de texto como SS3 y BERT. Ademas se realizaron pruebas con un modelo que permite traducir audio a texto Speechbrain. 
+
+
+Como trabajo futuro se pretende crear un modelo que involucre una validacion a traves de la voz, video y texto escrito de una persona. 
+
+
 ### Dataset 
 
 El dataset fue obtenido de 4 fuentes distintas ya que pudimos percatarnos que casi todas las oraciones contenian la palabra depresion, y por lo tanto el modelo iba a tener overfitting, este proceso puede visualizarse en https://docs.google.com/document/d/1ESw64C7C9L6zr-nKeDmi0CD6De8gAFJOyMwi_1TWkoQ/edit. Al final obtuvimos un dataset con 3000 registros y con una distribucion apropiada. 
 
 
 
-### Rendimiento de los módelos 
+### Rendimiento de los modelos 
 Para elegir los hiperparamteros y para evaluar la efectividad del modelo se tomaron dos principales metricas. La primera es el accuracy del módelo, que es el porcentaje de clasificaciones correctas del total de clasificaciones, asi como el recall, que se calcula de la siguiente manera: 
 ### Recall = TP/(TP+FN)
 ### Precision = TP/(TP+FP)
@@ -19,7 +27,7 @@ Se eligío el recall, ya que se esta prediciendo la depresión de una persona. E
 
 Para poder ver el rendimiento de manera grafica, se utilizó la herramienta de matriz de confusión.
 
-### Módelos
+### Modelos
 #### SS3
 El primer módelo que se utilzó fue el módelo SS3, introducido por primera vez en la section 3 del paper cientifico "A text classification framework for simple and effective early depression detection over social media streams" (arXiv preprint). SS3 es un modelo de clasificación de texto. que su caracteristica principal es que tiene la hablidad de explicar de manera natural la racionalidad de los textos.
 
