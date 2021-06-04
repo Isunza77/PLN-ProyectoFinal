@@ -22,5 +22,6 @@ Se implementó usando la libreria de python PySS3.
 #### Bert model
 El modelo de bert fue creado con el dataset 'Fulldata2.csv' este fue creado con 4 datasets diferentes para tener una gran riqueza de metodologías diferentes. 
 Para usar el modelo de bert es necesario usar esta carpeta: https://drive.google.com/drive/folders/1yW85oTu1QoWCcHDDWXHuZPz_1FzHkC-Y?usp=sharing.
-Una vez descargada 'sys.path.append(os.path.abspath('/content/drive/MyDrive/bert'))' y 'cd drive/MyDrive/bert' deben ser cambiados a la ubicación de la carpeta descargada. Una vez logrado esto e instalado las librerías necesarias la última celda del notebook Bert_test_depre detectara con que porcentaje cree que un texto es depresivo. Para testear el texto deseado solo es necesario cambiar la variable "text=''" a lo requerido.
+Una vez descargada 'sys.path.append(os.path.abspath('/content/drive/MyDrive/bert'))' y 'cd drive/MyDrive/bert' deben ser cambiados a la ubicación de la carpeta descargada. Una vez logrado esto e instalado las librerías necesarias la última celda del notebook Bert_test_depre detectara con que porcentaje cree que un texto es depresivo. Para testear el texto deseado solo es necesario cambiar la variable "text=''" a lo requerido. 
+Para mas informacion de los resultados de entrenamiento, pruebas y proceso del modelo bert ver:https://docs.google.com/document/d/1ESw64C7C9L6zr-nKeDmi0CD6De8gAFJOyMwi_1TWkoQ/edit?usp=sharing.
 
