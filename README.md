@@ -43,5 +43,5 @@ Para mas informacion de los resultados de entrenamiento, pruebas y proceso del m
 Para complementar el proyecto y como trabajo a futuro se comenzaron a realizar pruebas de un modelo de reconocimiento facial y deteccion de emociones para detectar tristeza , el dataset de imagenes utilizado fue el siguiente: https://www.kaggle.com/deadskull7/fer2013 . Para poder utilizar la webcam en google colab es necesario correr un snippet de codigo de google colab asi como en el siguiente link https://colab.research.google.com/drive/1QnC7lV7oVFk5OZCm75fqbLAfD9qBy9bw?usp=sharing. Para hacer el reconocimiento se utilizan los clasificadores cascada y para la deteccion de emociones una DCNN.  
 
 A pesar de que no existe algun dataset especializado en imagenes de personas que padecen depresion, esto representa una oportunidad para crear uno y poder hacer una prediccion real. 
-
+En el siguiente paper se observa un ejemplo del estado del arte de esta tecnica https://www.acadpubl.eu/jsi/2018-118-7-9/articles/7/61.pdf
 
