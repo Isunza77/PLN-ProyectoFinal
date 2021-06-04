@@ -2,6 +2,7 @@
 
 ### Dataset 
 
+El dataset fue obtenido de 4 fuentes distintas ya que pudimos percatarnos que casi todas las oraciones contenian la palabra depresion, y por lo tanto el modelo iba a tener overfitting. Al final obtuvimos un dataset con 3000 registros y con una distribucion apropiada.
 
 
 
@@ -31,7 +32,8 @@ Una vez descargada 'sys.path.append(os.path.abspath('/content/drive/MyDrive/bert
 Para mas informacion de los resultados de entrenamiento, pruebas y proceso del modelo bert ver:https://docs.google.com/document/d/1ESw64C7C9L6zr-nKeDmi0CD6De8gAFJOyMwi_1TWkoQ/edit?usp=sharing.
 
 ### Modelo de reconocimento facial y deteccion de emociones
+Para complementar el proyecto y como trabajo a futuro se comenzaron a realizar pruebas de un modelo de reconocimiento facial y deteccion de emociones para detectar tristeza , el dataset de imagenes utilizado fue el siguiente: https://www.kaggle.com/deadskull7/fer2013 . Para poder utilizar la webcam en google colab es necesario correr un snippet de codigo de google colab asi como en el siguiente link https://colab.research.google.com/drive/1QnC7lV7oVFk5OZCm75fqbLAfD9qBy9bw?usp=sharing. Para hacer el reconocimiento se utilizan los clasificadores cascada y para la deteccion de emociones una DCNN.  
 
-
+A pesar de que no existe algun dataset especializado en imagenes de personas que padecen depresion, esto representa una oportunidad para crear uno y poder hacer una prediccion real. 
 
 
