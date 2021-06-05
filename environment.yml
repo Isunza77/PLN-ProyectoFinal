@@ -1,0 +1,37 @@
+name: environment
+
+dependencies: 
+
+Bert:
+- runpy
+-Tensorflow==1.15.0
+-pandas
+-numpy
+
+Speachbrain:
+-speechbrain
+-libportaudio2
+
+ SS3:
+ - python=3.4
+ - numpy
+ -pyss3
+ -pickle
+ -seaborn
+ -sklearn
+ -ntlk
+ - matplotlib
+ - pandas
+
+Reconocimiento:
+
+-Opencv(cv2)
+-sklearn
+-keras
+-tensorflow
+-PIL
+-Javascript
+
+
+
+
